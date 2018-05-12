@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Main.py'],
-             pathex=['C:\\Users\\Stephen\\PycharmProjects\\16DivisibleDimension'],
+             pathex=['C:\\Users\\smurp\\PycharmProjects\\Gfycat-Dimension-Calculator'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -24,6 +24,6 @@ exe = EXE(pyz,
           name='Main',
           debug=False,
           strip=False,
-          upx=False,
+          upx=True,
           runtime_tmpdir=None,
           console=False )
