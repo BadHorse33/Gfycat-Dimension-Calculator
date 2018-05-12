@@ -12,7 +12,7 @@ def calculate_clicked():
         h = txtHeight.get()
         r = Rectangle(int(w), int(h))
         newDimensions = "x".join([str(x) for x in r.getNearestDivisibleWidth()])
-        result.delete(0)
+        result.delete(0, 'end')
         result.insert(0, newDimensions)
 
 #=================
